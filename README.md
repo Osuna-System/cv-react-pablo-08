@@ -12,8 +12,7 @@ Cada sección del CV está representada por un componente independiente dentro d
 
 ## Captura de pantalla
 
-
-> Reemplaza `ruta-de-tu-captura.png` con la captura de pantalla de tu navegador.
+![alt text](image-1.png)
 
 ## Instrucciones para ejecutar el proyecto
 
