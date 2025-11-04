@@ -1,16 +1,40 @@
-# React + Vite
+# CV React - Pablo Fuenmayor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una hoja de vida (CV) modularizada en React, construida usando componentes funcionales y anidados.  
+Cada sección del CV está representada por un componente independiente dentro de `src/components/`.
 
-Currently, two official plugins are available:
+## Componentes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `CabeceraCV.jsx` - Nombre, título y datos de contacto.
+- `Perfil.jsx` - Descripción profesional y habilidades.
+- `Experiencia.jsx` - Experiencia laboral con 4 cargos definidos.
+- `Educacion.jsx` - Cursos, talleres y formación complementaria.
 
-## React Compiler
+## Captura de pantalla
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+> Reemplaza `ruta-de-tu-captura.png` con la captura de pantalla de tu navegador.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instrucciones para ejecutar el proyecto
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/Pablo_Fuenmayor/cv-react-pablo.git
+```
+
+2. Instalar dependencias:
+
+```bash
+cd cv-react-pablo
+npm install
+```
+
+3. Iniciar servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+4. Abrir el navegador en [http://localhost:5173](http://localhost:5173)
+
