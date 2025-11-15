@@ -1,18 +1,25 @@
-import React from 'react';
-import CabeceraCV from './components/CabeceraCV';
-import Perfil from './components/Perfil';
-import Experiencia from './components/Experiencia';
-import Educacion from './components/Educacion';
+import CabeceraCV from "./components/CabeceraCV";
+import Perfil from "./components/Perfil";
+import Experiencia from "./components/Experiencia";
+import Educacion from "./components/Educacion";
 
-function App() {
+import { personal, perfil, experiencias, educacion } from "./data";
+
+export default function App() {
   return (
-    <div>
-      <CabeceraCV />
-      <Perfil />
-      <Experiencia />
-      <Educacion />
+    <div className="container">
+      <CabeceraCV
+        nombre={personal.nombre}
+        cargo={personal.cargo}
+        ciudad={personal.ciudad}
+        contacto={personal.contacto}
+      />
+
+      <Perfil resumen={perfil} />
+
+      <Experiencia experiencias={experiencias} />
+
+      <Educacion estudios={educacion} />
     </div>
   );
 }
-
-export default App;
