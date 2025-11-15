@@ -1,39 +1,83 @@
-# CV React - Pablo Fuenmayor
+# ��� CV React – Proyecto de Hoja de Vida en React
 
-Este proyecto es una hoja de vida (CV) modularizada en React, construida usando componentes funcionales y anidados.  
-Cada sección del CV está representada por un componente independiente dentro de `src/components/`.
+Este proyecto es una aplicación desarrollada con **React + Vite** para mostrar una hoja de vida (CV) moderna, modular y totalmente basada en componentes.
 
-## Componentes
+## ��� Tecnologías utilizadas
+- React
+- Vite
+- JavaScript ES6+
+- CSS personalizado
+- Git + GitHub
 
-- `CabeceraCV.jsx` - Nombre, título y datos de contacto.
-- `Perfil.jsx` - Descripción profesional y habilidades.
-- `Experiencia.jsx` - Experiencia laboral con 4 cargos definidos.
-- `Educacion.jsx` - Cursos, talleres y formación complementaria.
+---
 
-## Captura de pantalla
+## ��� Estructura del proyecto
 
-![Captura del CV](image-1.png)
+src/
+ ├── components/
+ │    ├── CabeceraCV.jsx
+ │    ├── Perfil.jsx
+ │    ├── Educacion.jsx
+ │    ├── Experiencia.jsx
+ │    └── Habilidades.jsx (si existe)
+ ├── data.js
+ ├── App.jsx
+ └── main.jsx
 
-## Instrucciones para ejecutar el proyecto
+---
+
+## ��� Características principales
+
+✔️ Componentes independientes  
+✔️ Cada componente recibe props  
+✔️ Uso de **desestructuración de props**  
+✔️ Datos centralizados en `data.js`  
+✔️ Proyecto modular, limpio y escalable  
+✔️ Ideal como práctica para React
+
+---
+
+## ���️ Instalación y uso
 
 1. Clonar el repositorio:
 
-```bash
-git clone https://github.com/Pablo_Fuenmayor/cv-react-pablo.git
-```
+git clone https://github.com/tu_usuario/cv-react-pablo.git
 
-2. Instalar dependencias:
+markdown
+Copiar código
 
-```bash
+2. Entrar al proyecto:
+
 cd cv-react-pablo
+
+markdown
+Copiar código
+
+3. Instalar dependencias:
+
 npm install
-```
 
-3. Iniciar servidor de desarrollo:
+markdown
+Copiar código
 
-```bash
+4. Ejecutar:
+
 npm run dev
-```
 
-4. Abrir el navegador en [http://localhost:5173](http://localhost:5173)
+yaml
+Copiar código
 
+---
+
+## ��� Scripts disponibles
+
+| Comando         | Descripción |
+|----------------|-------------|
+| `npm run dev`  | Servidor de desarrollo |
+| `npm run build`| Compila el proyecto |
+| `npm run preview` | Previsualiza el build |
+
+---
+
+## ✨ Autor
+**Pablo Fuenmayor**
