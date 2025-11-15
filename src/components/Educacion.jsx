@@ -1,22 +1,17 @@
-import React from 'react';
-
-const Educacion = () => {
-  const estudios = [
-    { curso: "Administración de Empresas", institucion: "Universidad ABC", año: "2020" },
-    { curso: "Curso de Excel Avanzado", institucion: "Plataforma XYZ", año: "2021" },
-    { curso: "Taller de Finanzas Personales", institucion: "Instituto LMN", año: "2022" },
-  ];
-
+export default function Educacion({ estudios = [] }) {
   return (
-    <section>
+    <section className="educacion">
       <h2>Educación</h2>
       <ul>
-        {estudios.map((edu, index) => (
-          <li key={index}>{edu.curso} - {edu.institucion} ({edu.año})</li>
+        {estudios.map(({ id, titulo, entidad, periodo }) => (
+          <li key={id}>
+            <h3>{titulo}</h3>
+            <p>
+              {entidad} · <em>{periodo}</em>
+            </p>
+          </li>
         ))}
       </ul>
     </section>
   );
-};
-
-export default Educacion;
+}
