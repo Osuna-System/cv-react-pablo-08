@@ -1,17 +1,16 @@
-export default function Educacion({ estudios = [] }) {
+function Educacion({ lista }) {
   return (
-    <section className="educacion">
+    <section>
       <h2>Educación</h2>
       <ul>
-        {estudios.map(({ id, titulo, entidad, periodo }) => (
-          <li key={id}>
-            <h3>{titulo}</h3>
-            <p>
-              {entidad} · <em>{periodo}</em>
-            </p>
+        {lista.map((edu, index) => (
+          <li key={index}>
+            <strong>{edu.titulo}</strong> - {edu.institucion} ({edu.fecha})
           </li>
         ))}
       </ul>
     </section>
   );
 }
+
+export default Educacion;

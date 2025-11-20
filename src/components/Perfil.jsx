@@ -1,8 +1,10 @@
-export default function Perfil({ resumen }) {
+function Perfil({ descripcion }) {
   return (
-    <section className="perfil">
-      <h2>Perfil</h2>
-      <p>{resumen}</p>
+    <section>
+      <h2>Perfil Profesional</h2>
+      <p>{descripcion}</p>
     </section>
   );
 }
+
+export default Perfil;

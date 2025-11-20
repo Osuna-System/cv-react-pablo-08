@@ -1,20 +1,17 @@
-export default function Experiencia({ experiencias = [] }) {
+function Experiencia({ lista }) {
   return (
-    <section className="experiencia">
+    <section>
       <h2>Experiencia</h2>
       <ul>
-        {experiencias.map(({ id, cargo, empresa, periodo, descripcion }) => (
-          <li key={id}>
-            <h3>
-              {cargo} — <small>{empresa}</small>
-            </h3>
-            <p>
-              <em>{periodo}</em>
-            </p>
-            <p>{descripcion}</p>
+        {lista.map((exp, index) => (
+          <li key={index}>
+            <strong>{exp.cargo}</strong> - {exp.empresa}
+            <p>{exp.descripcion}</p>
           </li>
         ))}
       </ul>
     </section>
   );
 }
+
+export default Experiencia;

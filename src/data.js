@@ -1,10 +1,10 @@
 export const personal = {
   nombre: "Pablo Fuenmayor",
   cargo: "Administrador / Desarrollador Junior",
-  ciudad: "Bogotá, Colombia",
+  ciudad: "Cartagena, Colombia",
   contacto: {
-    email: "pablo.ejemplo@mail.com",
-    telefono: "+57 300 000 0000",
+    email: "fuenmayor0908@hotmail.com",
+    telefono: "+57 3016305090",
     linkedin: "linkedin.com/in/pablo",
   },
 };
