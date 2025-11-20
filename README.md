@@ -129,7 +129,7 @@ npm run preview - Vista previa del build
 
 📸 Capturas de Pantalla
 Interfaz del CV Dinámico
-https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=CV+Din%C3%A1mico+con+Interactividad
+![alt text](image.png)
 
 Formulario de Tecnologías
 Input controlado para nueva tecnología
